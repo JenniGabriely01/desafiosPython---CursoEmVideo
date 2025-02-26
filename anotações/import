@@ -1,0 +1,8 @@
+# import nomeDaBiblioteca - importa a bibliota inteira
+# from nomeDaBiblioteca import nomeDaFuncionalidade - importa uma funcionalidade especifica dessa biblioteca
+
+# math 
+# - sqrt (raiz quadrada)
+# - cei (arredonda para cima)
+# - floor - arredonda para baixo 
+# - trunc - corta os decimais de um numero deixando ele inteiro
