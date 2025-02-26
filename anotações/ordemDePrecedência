@@ -1,0 +1,4 @@
+# 1 - ()
+# 2 - **
+# 3 - *, /, //, % (nesse caso, o que tiver primeiro, será lido primeiro)
+# 4 - +, -
