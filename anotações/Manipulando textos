@@ -1,0 +1,40 @@
+""" Frase - cadeia de texto ou caracteres - string
+
+Uma string é uma sequência de caracteres, representada entre aspas duplas ("") ou simples ('').
+
+Em Python, as strings são armazenadas na memória, onde cada caractere ocupa uma posição indexada, começando do índice 0 até o último caractere (os espaços também contam).
+
+= considerando a 'frase' como uma variável de string 
+==== fatiamento 
+frase[9] → Retorna o caractere na posição 9 (lembrando que a contagem começa do 0).
+frase[9:13] → Retorna do índice 9 até o 12 (o índice 13 é excluído).
+frase[9:21:2] → Vai do índice 9 ao 20, pulando de 2 em 2.
+frase[:5] → Vai do início (índice 0) até o 4 (o índice 5 é excluído).
+frase[15:] → Vai do índice 15 até o final da string.
+frase[9::3] → Vai do índice 9 até o final, pulando de 3 em 3.
+
+=== análise 
+len(frase) → Retorna o comprimento da string (quantidade total de caracteres).
+frase.count('o') → Conta quantas vezes a letra 'o' aparece na string.
+frase.count('o', 0, 13) → Conta quantos 'o' existem entre os índices 0 e 12.
+frase.find('deo') → Retorna a posição onde a sequência 'deo' começa na string. Se não existir, retorna -1.
+'Curso' in frase → Verifica se 'Curso' está presente na string. Retorna True ou False.
+
+=== Transforação 
+frase.replace('Python', 'Android') → Substitui 'Python' por 'Android'.
+frase.upper() → Converte toda a string para maiúsculas.
+frase.lower() → Converte toda a string para minúsculas.
+frase.capitalize() → Deixa apenas a primeira letra da string em maiúscula.
+frase.title() → Converte para Título, deixando a primeira letra de cada palavra em maiúscula.
+frase.strip() → Remove espaços em branco no início e no fim da string.
+frase.rstrip() → Remove espaços somente do lado direito.
+frase.lstrip() → Remove espaços somente do lado esquerdo.
+
+=== divisão
+O método split() divide a string em uma lista de palavras, separando-as pelos espaços:
+frase = "Curso em Vídeo Python"
+print(frase.split())
+# Saída: ['Curso', 'em', 'Vídeo', 'Python']
+
+=== junçao
+'-'.join(frase.split()) """

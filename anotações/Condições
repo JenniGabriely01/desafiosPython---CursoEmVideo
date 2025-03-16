@@ -1,0 +1,14 @@
+# todo comando grudado na esquerda vai ser repetido sempre, se o comando estier identado para dentro, ele pode ser executado ou não
+
+# modelo comum 
+nota1 = float(input("Digite a nota 1: "))
+nota2 = float(input("Digite a nota 2: "))
+m = (nota1 + nota2) /2
+print("sua média é {:.1f}".format(m))
+if m >=7.0:
+    print("Você foi aprovado")
+else:
+    print("Você está reprovado")
+    
+# modelo simplificado 
+# print('Você foi aprovado' if m>=7 else 'Reprovado')
