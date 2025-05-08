@@ -1,0 +1,23 @@
+# no py ele para no ultimo número, então de 1 a 6 ele repete até o 5 
+# caso for para ele contar a contrário - (6, 0, -1)
+# Para ele contar de 2 em 2 - (0, 6, 2)
+for c in range (0, 6, 2): 
+    print(c)
+print('fim')
+
+
+n = int(input('Digite um número: '))
+for c in range(0, n+1):
+    print(c)
+
+i = int(input('Ínicio: '))
+f = int(input('Fim: '))
+p = int(input('Passo: '))
+for c in range(i, f+1, p):
+    print(c)
+
+s = 0
+for c in range(0, 3):
+    va = int(input('Digite um valor: '))
+    s += va # soma os valores que foram pedidos no variavel va
+print(s)
